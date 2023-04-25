@@ -1,0 +1,58 @@
+.globe-photo {
+	width: 5%;
+	padding: 10px;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #f55a5a;
+	color: white;
+	vertical-align: center;
+}
+
+.card-photo {
+	width: 150px;
+	height: 200px;
+	border-radius: 5px;
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+	max-width: 500px;
+}
+
+.card-location {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.card-location a {
+	color: #918e9b;
+}
+
+.location {
+	color: #f55a5a;
+}
+
+.card-text {
+	margin-top: -30px;
+}
+
+.card-text > h4,
+p {
+	margin-top: -10px;
+}
+
+.card-infos {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
